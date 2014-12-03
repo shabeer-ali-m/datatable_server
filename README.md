@@ -16,7 +16,7 @@ Datatable server is php code that you can create json easily for [ajax datatable
 ### Codeigniter Usage
 
 ### Installation
-You need add `codeigniter/datatable_server_helper.php` in Codeigniter helper file:
+You need to add [`codeigniter/datatable_server_helper.php`] in Codeigniter helpers folder:
 (`yourproject/application/helpers/`)
 
 ### Usage
@@ -63,5 +63,5 @@ echo dt_get_json($config);
 License
 ----
 MIT
-
+[`codeigniter/datatable_server_helper.php`]:https://github.com/shabeer-ali-m/datatable_server/blob/master/codeigniter/datatable_server_helper.php
 [ajax datatable]:http://www.datatables.net/examples/data_sources/server_side.html
